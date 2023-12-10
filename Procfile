@@ -1,1 +1,1 @@
-web: gunicorn cloud-lab-1.wsgi
+web: gunicorn cloud-lab-1:app.wsgi
